@@ -42,15 +42,15 @@ class IndexController extends Controller {
 
         // Alidayu发送短信配置信息
         $alidayu_config=array(
-            'app'=>array(
-                'app_key'=>'23531710',
-                'app_secret'=>'83b81a43f4ffd4bba1e9d18b12337dd7'
-            ),
-            'sign'=>'呼啦呼啦', // 短信签名
-            'sms_code_template_id'=>'SMS_31680062' // 短信模板ID
+        'app'=>array(
+            'app_key'=>'23531770',
+            'app_secret'=>'83b81a43f4ffd4bba1e7y18b12337dd7'
+        ),
+        'sign'=>'呼啦呼啦', // 短信签名
+        'sms_code_template_id'=>'SMS_31680012' // 短信模板ID
         );
-
-        $mobile_phone='18869941433'; // 接收短信的手机号码
+ 
+        $mobile_phone='18888888888'; // 接收短信的手机号码
 
         $client = new Client(new App($alidayu_config['app']));
         $request    = new AlibabaAliqinFcSmsNumSend;
