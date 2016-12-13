@@ -27,7 +27,7 @@ class IndexController extends Controller {
     /**
      * 短信验证码发送
      * @author github.com/godcheese
-     * @fork https://github.com/godcheese/alidayu4thinkphp3_2_3
+     * @url https://github.com/godcheese/alidayu4thinkphp3_2_3
      * @fork https://github.com/flc1125/alidayu
      */
     public function send_sms(){
